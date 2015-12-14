@@ -63,3 +63,20 @@ div.gmw-pt-purple-form-wrapper .gmw-single-taxonomy-wrapper label
 	color:#fff !important;
 	
 }
+
+@media (max-width: 768px) {
+	
+.categories_drop_down {
+	
+	margin: 0 auto;
+    padding: 13px;
+    width: 100%;
+
+}
+
+.submit_button{
+	    padding: 10px;
+}
+	
+}
+
