@@ -1,0 +1,263 @@
+/**
+ * Posts Locator search results stylesheet "clean"
+ */
+.nav-tabs {
+  border-bottom: 2px solid #f9735a;
+    /* padding: 11px; */
+    padding-bottom:5px;
+}
+
+.nav-tabs >span {
+    color: #fff;
+    background-color: #f9735a;
+    /* border: 1px solid #f9735a; */
+    border-bottom-color: transparent;
+    cursor: default;
+    padding: 7px;
+}
+
+.profile-item {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.profile-title {
+    font-size: 1.571em;
+    margin: 5px 0;
+}
+.profile-location {
+    color: #999;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    width: 60%;
+}
+.price-info {
+    font-size: 1.5em;
+	padding:0!important;
+	margin:0 !important;
+}
+ .price-info .icon {
+    margin: 0 -6px;
+}
+.ratings {
+    color: #f9735b;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 108px;
+	margin:0 !important;
+}
+.rating-info  p{
+    
+	margin:0 !important;
+}
+.ratings .icon {
+    margin-right: -10px;
+}
+.rating-info {
+    display: inline-block;
+}
+.rating-info a {
+    text-decoration: underline;
+}
+.profile-tags {
+    color: #949494;
+}
+.profile-pics {
+    margin-top: 20px;
+    position: relative;
+    padding-top: 25%;
+}
+.profile-pic-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.detailview {
+	background-color: #f74929;
+    float: right;
+    color: #fff;
+    padding: 13px 12px 11px;
+    border: 1px solid;
+}
+.description{
+	margin:0 !important;
+}
+.detail-pic {
+    float: left;
+    overflow: hidden;
+}
+.detail-container {
+ display: inline-block;
+	}
+.detail-pic ul li{
+	display: inline;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+.label{
+	color:#999 !important;
+	padding:0;
+	font-size:16px;
+}
+.heading_title{
+	font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.distance, .information ,.address_value{
+	
+	font-size:17px;
+	font-weight:300;
+}
+.number_listing{
+	color: #000;
+    list-style: none;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.wppl-map-wrapper {	
+	margin-bottom: 10px;
+	clear:both;
+	width:auto;
+}
+
+.gmw-pt-per-page-dropdown {
+	height:25px !important;
+	font-size: 12px;
+	border:1px solid #ccc;
+	margin-left: 15px
+}
+
+.gmw-posts-wrapper .wppl-single-result {
+	padding:15px 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 0px;
+	position:relative;
+}
+
+.wppl-single-result .wppl-thumb {
+	border: 1px solid #DDD;
+	padding: 3px;
+	float: left;
+	margin-right: 10px;
+	display: inline;
+	background: #EFEFEF;
+}	
+
+.wppl-single-result .wppl-thumb img {
+	float: left;
+}
+		
+.wppl-single-result .wppl-info {
+	display: inline-block;
+	width:100%;
+	line-height: 17px;
+	margin-top:10px;
+}
+	
+.wppl-info .wppl-info-left {
+	float: left;
+	width: 40%;
+	border-right: 1px dashed #ccc;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+	
+.wppl-info .wppl-info-right {
+	float: left;
+	width: 55%;
+}
+
+.gmw-results-count {
+	background: #fdfdfd;
+	padding:8px 15px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+
+.gmw-results-count span {
+	font-size:13px;	
+}
+
+/* pagination */
+.gmw-pt-pagination-wrapper {
+	font-size: 12px;
+	background: #F9F9F9;
+	padding: 8px 0px;
+	display: inline-block;
+	width:100%;
+	min-height: 25px;
+	margin: 3px 0px
+}
+
+.gmw-pt-bottom-pagination-wrapper {
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+
+
+ul.gmw-pagination {
+	float: right;
+	text-align: center;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+
+ul.gmw-pagination li  {
+	text-align:center;
+	display: inline-block;
+	margin:0 0 0 2px;
+}
+
+ul.gmw-pagination li a,
+ul.gmw-pagination li span {
+	padding: 4px 3px;
+	font-size: 12px;
+	text-decoration: none;
+	background: white;
+	border: solid 1px #ddd;
+	display: inline-block;
+	color:#444;
+}
+
+ul.gmw-pagination li a:hover,
+ul.gmw-pagination li span, 
+.gmw-pt-gray-results-wrapper ul.gmw-pagination li span {
+	background:#f5f5f5;
+	border:1px solid #D9D9D9;
+}
