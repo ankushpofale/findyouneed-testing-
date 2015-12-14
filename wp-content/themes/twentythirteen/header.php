@@ -48,6 +48,15 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	
+	
+		<script>
+var screensize = document.documentElement.clientWidth;
+if (screensize  < 1024) {
+alert('Enable your gps location on phone and click ok To get the exact location');
+}
+
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
